@@ -1,0 +1,24 @@
+/** 
+* Colors
+*/
+
+$transparent: transparent;
+
+// Main colors
+$mainButtonBgColor: #F0141E;
+$altButtonTextColor: #5C5C5C;
+$white: white;
+$altFontColor: #5C5C5C;
+$mainFontColor: #F0141E;
+$errorColor: #D50000;
+$black: #202020;
+
+:export {
+  bgColor: $white;
+  altFontColor: $altFontColor;
+  mainFontColor: $mainFontColor;
+  mainButtonBgColor: $mainButtonBgColor;
+  altButtonTextColor: $altButtonTextColor;
+  errorColor: $errorColor;
+  black: $black;
+}

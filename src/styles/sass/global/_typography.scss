@@ -1,0 +1,96 @@
+body {
+  color: $mainFontColor;
+  font-family: $Lato;
+  font-size: 16px
+}
+
+%h1 {
+  color: $mainFontColor;
+  font-family: $Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+h1 {
+  @extend %h1;
+}
+
+%h2 {
+  color: $mainFontColor;
+  font-family: $Lato;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+h2 {
+  @extend %h2;
+}
+
+%h3 {
+  font-family: $Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $mainFontColor;
+}
+
+h3 {
+  @extend %h3;
+}
+
+%h4 {
+  font-family: $Lato;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $altFontColor;
+}
+
+h4 {
+  @extend %h4;
+}
+
+.list-style {
+  font-family: $Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $mainFontColor;
+}
+
+%th {
+  font-family: $Lato;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $mainFontColor;
+}
+th {
+  @extend %th;
+}
+.th-style {
+  @extend %th;
+}
+
+strong {
+  font-weight: bold;
+}
+
+small {
+  font-size: 10px;
+  font-family: $Lato;
+}

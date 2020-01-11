@@ -1,0 +1,13 @@
+.post-main-container {
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 410px;
+}
+
+@media (min-width: 410px) {
+  .post-main-container {
+    flex-wrap: wrap;
+    max-width: 600px;
+    flex-direction: row;
+  }
+}
